@@ -10,3 +10,8 @@ __pycache__/
 input.txt
 env/
 venv/
+
+data/openwebtext/*.bin
+out*/
+*.pt
+__pycache__/
