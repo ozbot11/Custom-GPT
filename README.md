@@ -1,3 +1,31 @@
+## About
+
+This project builds on [nanoGPT](https://github.com/karpathy/nanoGPT) by Andrej Karpathy.
+
+My goal was to use this implementation as an experimental platform to study transformer training dynamics, scaling behavior, and model failure modes.
+
+### My Contributions
+
+- Trained models up to ~2.7B parameters on OpenWebText
+- Ran experiments varying model size, batch size, and training configurations
+- Analyzed training stability, convergence behavior, and loss dynamics
+- Explored tradeoffs between compute, performance, and generalization
+- Investigated how scaling affects output quality and consistency
+
+### What I Learned
+
+- Larger models improve coherence but remain sensitive to prompt variation
+- Training stability depends heavily on batch size and learning rate scaling
+- Small changes in configuration can significantly impact convergence
+- Models can produce inconsistent or misleading outputs under small input changes
+
+
+## Experiments
+
+- 1.3B model trained for 40k iterations
+- 2.7B model trained for 60k iterations
+- Working on 6.7B model
+- Compared validation loss and generation quality across scales
 
 # nanoGPT
 
